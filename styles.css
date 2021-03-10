@@ -81,32 +81,20 @@ section {
     line-height: 1;
 	font-weight: bold;
 }
-#grid-container .grid-item:nth-child(1) {
+#grid-container .grid-item-set-one {
 	background: #6e98a8;
 }
-#grid-container .grid-item:nth-child(2) {
+#grid-container .grid-item-set-two {
 	background: #2c8dad;
 }
-#grid-container .grid-item:nth-child(3) {
+#grid-container .grid-item-set-three {
 	background: #31454e;
 }
-#grid-container .grid-item:nth-child(4) {
-	background: #2c8dad;
-}
-#grid-container .grid-item:nth-child(5) {
-	background: #31454e;
-}
-#grid-container .grid-item:nth-child(6) {
+#grid-container .grid-item-set-four {
 	background: #c3bdbf;
 }
-#grid-container .grid-item:nth-child(7) {
+#grid-container .grid-item-set-five {
 	background: #bfbfbf;
-}
-#grid-container .grid-item:nth-child(8) {
-	background: #6e98a8;
-}
-#grid-container .grid-item:nth-child(9) {
-	background: #31454e;
 }
 .footer {
 	width:100%;
@@ -155,40 +143,24 @@ section {
 		height: auto; 
 		top:0px;
 	}
-	#grid-container .grid-item:nth-child(1) {
+	#grid-container .grid-item-set-one {
 		background: #efefef;
-		border-left:8px solid #6e98a8;	
+		border-left: 8px solid #6e98a8;
 	}
-	#grid-container .grid-item:nth-child(2) {
+	#grid-container .grid-item-set-two {
 		background: #efefef;
-		border-left:8px solid  #2c8dad;
+		background: #2c8dad;
 	}
-	#grid-container .grid-item:nth-child(3) {
+	#grid-container .grid-item-set-three {
 		background: #efefef;
-		border-left:8px solid #31454e;
+		border-left: 8px solid #31454e;
 	}
-	#grid-container .grid-item:nth-child(4) {
+	#grid-container .grid-item-set-four {
 		background: #efefef;
-		border-left:8px solid #2c8dad;
+		border-left: 8px solid #c3bdbf;
 	}
-	#grid-container .grid-item:nth-child(5) {
+	#grid-container .grid-item-set-five {
 		background: #efefef;
-		border-left:8px solid #31454e;
-	}
-	#grid-container .grid-item:nth-child(6) {
-		background: #efefef;
-		border-left:8px solid #c3bdbf;
-	}
-	#grid-container .grid-item:nth-child(7) {
-		background: #efefef;
-		border-left:8px solid #bfbfbf;
-	}
-	#grid-container .grid-item:nth-child(8) {
-		background: #efefef;
-		border-left:8px solid #6e98a8;
-	}
-	#grid-container .grid-item:nth-child(9) {
-		background: #efefef;
-		border-left:8px solid #31454e;
+		border-left: 8px solid #bfbfbf;
 	}
 }
