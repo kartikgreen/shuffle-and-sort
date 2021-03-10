@@ -149,7 +149,7 @@ section {
 	}
 	#grid-container .grid-item-set-two {
 		background: #efefef;
-		background: #2c8dad;
+		border-left: 8px solid #2c8dad;
 	}
 	#grid-container .grid-item-set-three {
 		background: #efefef;
