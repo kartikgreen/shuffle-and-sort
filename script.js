@@ -1,7 +1,6 @@
 const init = (() => {
     const container = document.getElementById("grid-container");
     const shuffle = (items) => {
-        console.log(items);
         let temp, randomNumber;
         for (let index = items.length - 1; index > 0; index--) {
             randomNumber = Math.floor((index + 1) * Math.random());
@@ -9,7 +8,6 @@ const init = (() => {
             items[randomNumber] = items[index];
             items[index] = temp;
         }
-        console.log(items);
         return items;
     }
     const sort = (items) => {
@@ -18,7 +16,6 @@ const init = (() => {
     }
     const shuffleTheList = () => {
         for (const grid of shuffle([...container.children])) {
-            console.log(grid);
             container.appendChild(grid);
         }
     }
